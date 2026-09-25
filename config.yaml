@@ -69,7 +69,7 @@ contact: 'carpentries-instructor@mit.edu'
 episodes: 
 - introduction.md
 - advanced-data-analysis-visualization.md
-- AI_tool.md
+- ai-python-workflow.md
 
 # Information for Learners
 learners: 
