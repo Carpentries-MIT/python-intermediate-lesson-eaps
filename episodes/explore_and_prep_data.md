@@ -23,3 +23,25 @@ exercises: TBD # exercise time in minutes
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
+
+::: tab
+
+### Cheese
+
+### Cheesier
+
+### Cheesiest
+
+:::
+
+::: callout
+
+All aboard the learning train!
+
+:::
+
+::: caution
+
+Fun awaits
+
+:::

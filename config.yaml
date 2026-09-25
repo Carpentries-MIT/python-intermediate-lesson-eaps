@@ -73,6 +73,9 @@ episodes:
 
 # Information for Learners
 learners: 
+- reference.md
+- setup.md
+- further_reading.md
 
 # Information for Instructors
 instructors: 
