@@ -17,6 +17,13 @@ exercises: 2 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::
+### Glossary
+- Parley: MIT's AI toolset.
+:::
+
+
+
 ## Introduction
 
 This is a lesson created via The Carpentries Workbench. It is written in
