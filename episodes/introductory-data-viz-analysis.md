@@ -62,7 +62,7 @@ Truly astonishing, including a code block:
 This is a callout block. It contains at least three colons. 
 :::
 
-::::::::::::::::::::::::::::::::::::::::::::::: super callout
+::::::::::::::::::::::::::::::::::::::::::::::: super callout 
 
 This is an **even more dramatic callout** which includes _more colons_ for striking visual effect.
 
