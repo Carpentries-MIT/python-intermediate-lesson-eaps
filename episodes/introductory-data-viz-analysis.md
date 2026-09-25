@@ -56,3 +56,16 @@ Truly astonishing, including a code block:
 ```
 
 :::
+
+
+::: callout
+This is a callout block. It contains at least three colons. 
+:::
+
+::::::::::::::::::::::::::::::::::::::::::::::: super callout
+
+This is an **even more dramatic callout** which includes _more colons_ for striking visual effect.
+
+--- Is it affect or effect?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
