@@ -17,6 +17,10 @@ exercises: 2 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+### Glossary
+- Parley: MIT's AI toolset.
+
 ## Introduction
 
 This is a lesson created via The Carpentries Workbench. It is written in
@@ -61,7 +65,9 @@ paste("This", "new", "lesson", "looks", "good")
 ```
 
 :::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Challenge 2: how do you nest solutions within challenge blocks?
 
@@ -90,7 +96,7 @@ but are also used in some lessons to present "asides":
 content that is not central to the narrative of the lesson,
 e.g. by providing the answer to a commonly-asked question.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Math

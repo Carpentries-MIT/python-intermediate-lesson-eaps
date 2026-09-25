@@ -4,5 +4,5 @@ title: 'Reference'
 
 ## Glossary
 
-This is a placeholder file. Please add content here. 
-
+pipe
+: Programming technique used by methods or functions that redirects the output from one process or command into another

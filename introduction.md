@@ -1,19 +1,20 @@
 ---
-title: "Using Markdown"
+title: "Introduction"
 teaching: 10 # teaching time in minutes
 exercises: 2 # exercise time in minutes
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What are some key elements of clearly written and descriptive code?
+- What information on a dataset's landing page should you make note if you wish to cite and properly attribute the dataset?
+- How does an IDE help scientists produce high quality Python notebooks?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Write descriptivecode using best practices
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
