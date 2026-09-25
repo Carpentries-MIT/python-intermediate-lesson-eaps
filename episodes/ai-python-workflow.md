@@ -68,7 +68,9 @@ paste("This", "new", "lesson", "looks", "good")
 ```
 
 :::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Challenge 2: how do you nest solutions within challenge blocks?
 
@@ -97,7 +99,7 @@ but are also used in some lessons to present "asides":
 content that is not central to the narrative of the lesson,
 e.g. by providing the answer to a commonly-asked question.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Math
