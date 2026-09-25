@@ -17,12 +17,9 @@ exercises: 2 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::
 ### Glossary
+
 - Parley: MIT's AI toolset.
-:::
-
-
 
 ## Introduction
 
