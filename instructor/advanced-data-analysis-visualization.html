@@ -118,7 +118,7 @@
     <a id="search-button" class="btn btn-primary" href="../instructor/aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 29%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">29%</div>
+    <div class="progress-bar incubator" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">10%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -205,22 +205,13 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush3">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading3">
-        <a href="introduction_ap.html">2. Summary and Setup</a>
-    </div><!--/div.accordion-header-->
-
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
-        3. Advanced Data Analysis &amp; Visualization
+        2. Advanced Data Analysis &amp; Visualization
         </span>
       </button>
     </div><!--/div.accordion-header-->
@@ -234,10 +225,10 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush5">
+<div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading5">
-        <a href="AI_tool.html">4. Using Parley to support Python workflows</a>
+    <div class="accordion-header" id="flush-heading4">
+        <a href="ai-python-workflow.html">3. Using Parley to support Python workflows</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -285,16 +276,16 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter Top"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/introduction_ap.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/AI_tool.html" rel="next">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="../instructor/introduction.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="../instructor/ai-python-workflow.html" rel="next">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/introduction_ap.html" rel="prev">
+        <a class="chapter-link" href="../instructor/introduction.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Summary and Setup...
+          Previous: Using Markdown...
         </a>
-        <a class="chapter-link float-end" href="../instructor/AI_tool.html" rel="next">
+        <a class="chapter-link float-end" href="../instructor/ai-python-workflow.html" rel="next">
           Next: Using Parley to support Python workflows...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
@@ -307,7 +298,7 @@
 
 
 
-        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 60 minutes</p>
 
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -322,8 +313,13 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<ul><li>How can you assess the characteristics of a dataset and determine
+the appropriate statistical analyses to undergo?</li>
+<li>How do you visualize different types of data to reveal important or
+interesting characteristics?</li>
+<li>How can we streamline or standardize analyses to save time and
+reduce error when conducting the same analysis across datasets or over
+time?</li>
 </ul></div>
 </div>
 </div>
@@ -331,9 +327,16 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<ul><li>Mapping and assessing data distribution is essential to selecting
+the appropriate statistical approach–histograms are helpful tools to
+visualize data distributions.</li>
+<li>Continuous and discrete variables must be represented differently:
+continuous data rely on accurate scaling and styles that connect
+observations, whereas discrete data are best visualized with individual
+points or bars to illustrate the gaps between data points.</li>
+<li>For- and while-loops are key to accomplishing iteration while
+minimizing error. Functions allow us to combine iteration of tasks in a
+standardized way that is repeatable and shareable.</li>
 </ul></div>
 </div>
 </div>
@@ -345,16 +348,16 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  --></section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/introduction_ap.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/AI_tool.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="../instructor/introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="../instructor/ai-python-workflow.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/introduction_ap.html" rel="prev">
+        <a class="chapter-link" href="../instructor/introduction.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: Summary and Setup...
+          Previous: Using Markdown...
         </a>
-        <a class="chapter-link float-end" href="../instructor/AI_tool.html" rel="next">
+        <a class="chapter-link float-end" href="../instructor/ai-python-workflow.html" rel="next">
           Next: Using Parley to support Python workflows...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>

@@ -68,9 +68,8 @@ contact: 'carpentries-instructor@mit.edu'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
-- introduction_ap.md
 - advanced-data-analysis-visualization.md
-- AI_tool.md
+- ai-python-workflow.md
 
 # Information for Learners
 learners: 
