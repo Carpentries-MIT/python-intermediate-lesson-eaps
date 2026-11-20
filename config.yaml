@@ -11,7 +11,7 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'CarpentriesMIT_TopDown'
+carpentry: 'CarpentriesMIT-TopDown'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
@@ -87,5 +87,5 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-varnish: alevan2p/varnish
+varnish: CarpentriesMIT/varnish
 
